@@ -1,0 +1,417 @@
+body {font-size: 16px;
+margin: 0%; }
+
+.headerGrid {display: grid;
+grid-template-columns: 6fr 1fr 1fr 1fr;
+padding-top: 3%;
+width: 90%;
+margin: auto;}
+
+a {text-decoration: none ;}
+
+.fylo {text-decoration: none;
+color: rgb(19, 11, 90);}
+
+h1 {color: rgb(19, 11, 90);
+margin-right: 30%;}
+
+.firstParagraph {margin-right: 30%;
+margin-top: 4%;
+margin-bottom: 5%;}
+
+h2 {color: rgb(19, 11, 90);
+    font-weight: 600;
+    font-size: 2rem;}
+
+.secondParagraph {margin-right: 30%;}
+
+.div-1 {background-color: rgb(255, 255, 255);
+padding: 3%;
+width: 60%;
+margin-top: 10%;
+}
+
+
+
+.testImg-Name {display: grid;
+grid-template-columns: 1fr 1fr 1fr;}
+
+.testimonialImg {width: 50%;
+border-radius: 50%;
+}
+
+.Hero {display: grid;
+grid-template-columns: 1fr 1fr;
+width: 90%;
+margin: auto;
+padding-bottom: 5%;}
+
+.heroImg {width: 100%;
+margin: auto;
+margin-top: 7%;}
+
+.heroText {margin-top: 20%;}
+
+#formField {padding: 2%;
+width: 35%;}
+
+#formButton {background-color: rgb(47, 101, 249);
+width: 25%;
+padding: 2%;
+border: none;
+color: white;}
+
+
+.secDiv {background-image: url(./images/bg-curve-desktop.svg);
+background-repeat:no-repeat;
+background-size: contain;
+background-color: rgb(248,248,254);
+
+}
+
+.illustImg2 {width: 100%;
+margin-top: 20%;}
+
+.innerSecDiv {display: grid;
+grid-template-columns: 1fr 1fr;
+width: 90%;
+margin: auto;}
+
+
+.div-2-0{display: grid;
+grid-template-columns: 1fr 1fr;
+width: 90%;
+margin: auto;
+}
+
+.div-2 {background-color: rgb(87, 89, 137);}
+
+.lt {color: white;}
+
+.lt2 {margin-right: 20%;}
+
+.lt3 {margin-right: 30%;}
+
+
+
+#formField1 {padding: 2%;
+width: 60%;
+display: block;
+margin-top: 5%;}
+    
+#formButton1 {background-color: rgb(47, 101, 249);
+width: 40%;
+padding: 2%;
+display: block;
+margin-top: 1%;
+border: none;
+color: white;
+}
+
+.div-2nd {padding-top: 10%;
+padding-bottom: 10%;}
+
+footer {background-color: rgb(4, 7, 59);}
+
+.footer-1 {display: grid;
+grid-template-rows: 2fr 2fr 2fr 2fr;
+gap: 15%;}
+
+.footer {display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding: 5%;}
+
+li {color: white;
+list-style: none;}
+
+.i {padding-right: 4%;}
+
+.logo {width: 60%;}
+
+.attribution {color: rgb(255, 255, 255);
+margin: 0%;
+padding-bottom: 2%;
+display: block;
+text-align: center;
+}
+
+.foot {color: rgb(172, 170, 170);}
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+
+
+
+    .headerGrid {display: grid;
+        grid-template-columns: 3fr 1.5fr 1fr 1fr;
+        padding-top: 3%;
+        width: 90%;
+        margin: auto;}
+
+    .logo1 {width: 50%;}
+    
+    .Hero {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;
+        }
+
+
+
+    .heroImg {width: 90%;
+        margin: auto;
+        margin-top: 7%;}
+
+
+
+   .innerSecDiv {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;}
+
+
+    .illustImg2 {width: 90%;
+        margin-top: 20%;}
+
+
+
+    .div-2-0{display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 90%;
+        margin: auto;
+        }
+
+
+    footer {background-color: rgb(4, 7, 59);
+    padding-bottom: 15%;}
+
+
+    .footer-1 {display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 20%;}
+            
+    .footer {display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        padding: 5%;
+    gap: 10%;}
+
+
+    .logo {width: 50%;}
+
+
+    h1 {color: rgb(19, 11, 90);
+        margin-right: 15%;}
+            
+    .firstParagraph {margin-right: 25%;
+        margin-top: 4%;
+        margin-bottom: 5%;}
+            
+    h2 {color: rgb(19, 11, 90);
+        font-weight: 600;
+        font-size: 2rem;
+        margin-right: 25%;}
+            
+    .secondParagraph {margin-right: 25%;}
+
+    .div-2nd {padding-top: 0%;
+        padding-bottom: 0%;}
+            
+}
+
+
+
+
+
+
+
+
+@media (max-width: 600px) 
+{
+        
+
+
+    .headerGrid {display: grid;
+        grid-template-columns: 2fr 1.3fr 1fr 1fr;
+        padding-top: 3%;
+        width: 90%;
+        margin: auto;}
+
+
+    .Hero {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;
+        }
+
+        .div-2nd {padding-top: 0%;
+            padding-bottom: 0%;}
+    
+
+    .logo1 {width: 70%;}
+
+    .heroText {margin-top: 17%;
+     margin-left: 5%;
+    margin-right: 5%;
+font-size: 0.9rem;}
+
+
+    .heroImg {width: 90%;
+        margin: auto;
+        margin-top: 7%;}
+
+    .form {
+       margin: 0%;
+       margin-left: 16%;
+    }
+
+
+
+   .innerSecDiv {display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin: auto;}
+
+
+    .illustImg2 {width: 90%;
+        margin-top: 20%;}
+
+
+
+    .div-2-0{display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 90%;
+        margin: auto;
+        }
+
+
+    footer {background-color: rgb(4, 7, 59);
+    padding-bottom: 5%;}
+
+
+    .footer-1 {display: grid;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        gap: 10%;}
+            
+    .footer {display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 0.3fr 2fr 2fr;
+        padding: 5%;
+    gap: 10%;}
+
+
+    .logo {width: 30%;
+          }
+
+
+    h1 {color: rgb(19, 11, 90);
+        margin-right: 0%;
+    text-align: center;}
+            
+    .firstParagraph {margin-right: 0%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    text-align: center;}
+            
+    h2 {color: rgb(19, 11, 90);
+        font-weight: 600;
+        font-size: 2rem;
+        margin-right: 0%;
+        margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;}
+            
+    .secondParagraph {
+        margin-left: 4%;
+    margin-right: 4%;
+    text-align: center;}
+
+    .div-2nd {padding-top: 0%;
+        padding-bottom: 0%;}
+
+    .lt {color: white;}
+
+    .lt2 {margin-left: 5%;
+        margin-right: 5%;}
+        
+    .lt3 {margin-left: 5%;
+        margin-right: 5%;
+    text-align: center;}
+        
+        
+
+
+    .div-1 {background-color: rgb(255, 255, 255);
+        padding: 3%;
+        width: 70%;
+        margin: auto;
+        margin-top: 10%;
+           }
+
+    .fylo {text-decoration: none;
+        color: rgb(19, 11, 90);
+    margin-left: 30%;}
+            
+
+    #formField {
+        width: 80%;
+        display: block;
+        margin-bottom: 1%;
+    }
+
+        
+    #formButton {background-color: rgb(47, 101, 249);
+        width: 86%;
+        padding: 2%;
+        display: block;
+        border: none;
+        color: white;}
+
+
+
+
+    #formField1 {padding: 2%;
+        width: 60%;
+        display: block;
+        margin-top: 5%;}
+            
+    #formButton1 {background-color: rgb(47, 101, 249);
+        width: 65%;
+        padding: 2%;
+        display: block;
+        margin-top: 1%;
+        border: none;
+        color: white;
+        }
+
+
+    #form1 {margin-left: 25%;}
+    
+    .i {padding-right: 4%;}
+
+    .logo {width: 60%;}
+        
+    .attribution {color: rgb(255, 255, 255);
+    margin: 0%;
+    padding-bottom: 2%;
+    display: block;
+    text-align: center;
+    }
+    
+    .foot {color: rgb(172, 170, 170);}
+            
+}
+    
